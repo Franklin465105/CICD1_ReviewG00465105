@@ -1,4 +1,8 @@
 package ie.atu.sample.repository;
 
-public class BookingRepository {
+import ie.atu.sample.model.Booking;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BookingRepository extends JpaRepository<Booking, Long> {
+
 }
